@@ -1,0 +1,5 @@
+{
+    "tableName": "employee_screening",
+    "partitionKeyName": "date",
+    "partitionKeyType": "S"
+}

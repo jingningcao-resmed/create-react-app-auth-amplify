@@ -1,0 +1,5 @@
+{
+    "tableName": "screening",
+    "partitionKeyName": "date",
+    "partitionKeyType": "S"
+}

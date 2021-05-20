@@ -1,8 +1,18 @@
 {
-	"auth": {
-		"cognitocf0c6096": {
-			"service": "Cognito",
-			"providerPlugin": "awscloudformation"
-		}
-	}
+  "auth": {
+    "cognitocf0c6096": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "storage": {
+    "dynamodb": {
+      "service": "DynamoDB",
+      "providerPlugin": "awscloudformation"
+    },
+    "screeningdb": {
+      "service": "DynamoDB",
+      "providerPlugin": "awscloudformation"
+    }
+  }
 }
